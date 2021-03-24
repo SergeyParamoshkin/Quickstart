@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/SergeyParamoshkin/Quickstart/version"
+)
 
 func main() {
-	fmt.Println("Hello Golang World")
+	// nolint
+	fmt.Println("Hello Golang World", version.VERSION)
 }
